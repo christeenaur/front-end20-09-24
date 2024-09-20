@@ -22,6 +22,7 @@ const Login = () => {
     
     if(response.data.success){
       alert('Login successful');
+      navigate('/home')
     
     }
     else
